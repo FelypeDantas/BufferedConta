@@ -27,7 +27,7 @@ public class ClassePrincipal {
 		          break;
 		  case 9: JOptionPane.showMessageDialog(null, "Finaliza programa");
 		          break;
-		  default: JOptionPane.showMessageDialog(null, "Opção Inválida, tente novamente");
+		  default: JOptionPane.showinputDialog(null, "Opção Inválida, tente novamente");
 		  }
 	  }
   }
